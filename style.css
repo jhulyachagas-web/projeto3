@@ -1,0 +1,87 @@
+/* Configuração geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f6ff;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Seções */
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h2 {
+    color: #1e3a8a;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #2563eb;
+}
+
+/* Textos */
+p {
+    font-size: 17px;
+}
+
+/* Destaques */
+strong {
+    color: #1e40af;
+}
+
+/* Rodapé */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsividade para celular */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 23px;
+    }
+
+    main {
+        padding: 0 10px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
